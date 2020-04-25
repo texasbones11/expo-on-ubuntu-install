@@ -10,7 +10,7 @@ Configure networking for the VM to `Bridged Adapter`
 ### Ubuntu configuration
 Install the following packages:
 ```bash
-sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 curl htop npm
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 git curl htop npm
 ```
 This will have installed an older version of nodejs. We need nodejs > v12
 ### Nodejs and Expo install
